@@ -16339,16 +16339,16 @@ var _AronNovak$travis_video$Main$main = A2(
 		_0: _xarvh$elm_slides$Slides$md('\n# Travis - your movie producer\n\n[https://github.com/AronNovak/travis-video](https://github.com/AronNovak/travis-video)\n\nby [@NovakAron](https://twitter.com/NovakAron)\n\n        '),
 		_1: {
 			ctor: '::',
-			_0: _xarvh$elm_slides$Slides$md('\n# Browser-based testing\nprogrammatically controlled web browser\n\nGoal for newcomers:\n- write a basic test that checks the existence and the availability of your Drupal.org profile page\n\nGoal for veterans:\n- write a test that checks if you authored at least one issue and have at least one commit under your Drupal.org profile page last month\n\n        '),
+			_0: _xarvh$elm_slides$Slides$md('\n# Browser-based testing\nprogrammatically controlled web browser: with WDIO or with your favourite\n\nGoal for newcomers:\n- write a basic test that checks the existence and the availability of your Drupal.org profile page\n\nGoal for veterans:\n- write a test that checks if you authored at least one issue and have at least one commit under your Drupal.org profile page last month\n\n        '),
 			_1: {
 				ctor: '::',
-				_0: _xarvh$elm_slides$Slides$md('\n# Zalenium\nFeature-rich Selenium Grid with one command:\n\n```\ndocker run --rm -ti --name zalenium\n  -p 4444:4444 -p 5555:5555\n  -v $(which docker):/usr/bin/docker\n  -v /var/run/docker.sock:/var/run/docker.sock\n  -v /tmp/videos:/home/seluser/videos\n  --privileged\n  dosel/zalenium start\n```\n\nTry it with your previous test!\n'),
+				_0: _xarvh$elm_slides$Slides$md('\n# Zalenium\nFeature-rich Selenium Grid with one command:\n\n```\ndocker run --rm -ti --name zalenium\n  -p 4444:4444 -p 5555:5555\n  -v $(which docker):/usr/bin/docker\n  -v /var/run/docker.sock:/var/run/docker.sock\n  -v /tmp/videos:/home/seluser/videos\n  --privileged\n  dosel/zalenium start\n```\n\nTry to execute your previous test on your new grid!\n'),
 				_1: {
 					ctor: '::',
-					_0: _xarvh$elm_slides$Slides$md('\n# Travis\n\n - Freedom on automated testing - for your Drupal project too\n - YML file + shell scripting skills\n - Clone the sample and get some computing resources for free :)\n'),
+					_0: _xarvh$elm_slides$Slides$md('\n# Travis\n\n - Freedom on automated testing - for your Drupal project too\n - YML file + shell scripting skills\n - Clone the sample and get some computing resources for [(free)](https://motherboard.vice.com/en_us/article/nzkxgm/bitcoin-mining-github-open-source-bots) :)\n'),
 					_1: {
 						ctor: '::',
-						_0: _xarvh$elm_slides$Slides$md('\n# Credit to\n - [Amitai Brustein](https://github.com/amitaibu) for providing the initial idea and the mentoring\n - [Gizra](https://www.gizra.com/) for sponsoring the preparation to this workshop\n - [The authors of Zalenium](https://github.com/zalando/zalenium/graphs/contributors) to reduce the time of the implementation by the feature-rick Docker image\n\n'),
+						_0: _xarvh$elm_slides$Slides$md('\n# Credit to\n - [Amitai Brustein](https://github.com/amitaibu) for providing the initial idea and the mentoring\n - [Gizra](https://www.gizra.com/) for sponsoring the preparation to this workshop\n - [The authors of Zalenium](https://github.com/zalando/zalenium/graphs/contributors) to make it realistic to implement by the feature-rick Docker image\n\n'),
 						_1: {ctor: '[]'}
 					}
 				}
