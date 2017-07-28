@@ -1,0 +1,5 @@
+node_modules
+errorShots/
+
+# Local config file.
+wdio.local.conf.js
