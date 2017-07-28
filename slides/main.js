@@ -16339,17 +16339,29 @@ var _AronNovak$travis_video$Main$main = A2(
 		_0: _xarvh$elm_slides$Slides$md('\n# Travis - your movie producer\n\n[https://github.com/AronNovak/travis-video](https://github.com/AronNovak/travis-video)\n\nby [@NovakAron](https://twitter.com/NovakAron)\n\n        '),
 		_1: {
 			ctor: '::',
-			_0: _xarvh$elm_slides$Slides$md('\n# Browser-based testing\nprogrammatically controlled web browser: with WDIO or with your favourite\n\nGoal for newcomers:\n- write a basic test that checks the existence and the availability of your Drupal.org profile page\n\nGoal for veterans:\n- write a test that checks if you authored at least one issue and have at least one commit under your Drupal.org profile page last month\n\n        '),
+			_0: _xarvh$elm_slides$Slides$md('\n# Browser-based testing\nprogrammatically controlled web browser: with WDIO or with your favourite\n\n - highest level functional test\n - slow execution time for complex tests\n - not for cross-browser testing\n '),
 			_1: {
 				ctor: '::',
-				_0: _xarvh$elm_slides$Slides$md('\n# Zalenium\nFeature-rich Selenium Grid with one command:\n\n```\ndocker run --rm -ti --name zalenium\n  -p 4444:4444 -p 5555:5555\n  -v $(which docker):/usr/bin/docker\n  -v /var/run/docker.sock:/var/run/docker.sock\n  -v /tmp/videos:/home/seluser/videos\n  --privileged\n  dosel/zalenium start\n```\n\nTry to execute your previous test on your new grid!\n'),
+				_0: _xarvh$elm_slides$Slides$md('\n# Browser-based testing excercise\n## [20min]\n\nGoal for newcomers:\n- write a basic test that checks the existence and the availability of your Drupal.org profile page\n\nGoal for veterans:\n- write a test that checks if you authored at least one issue and have at least one commit under your Drupal.org profile page last month\n\n        '),
 				_1: {
 					ctor: '::',
-					_0: _xarvh$elm_slides$Slides$md('\n# Travis\n\n - Freedom on automated testing - for your Drupal project too\n - YML file + shell scripting skills\n - Clone the sample and get some computing resources for [(free)](https://motherboard.vice.com/en_us/article/nzkxgm/bitcoin-mining-github-open-source-bots) :)\n'),
+					_0: _xarvh$elm_slides$Slides$md('\n# Zalenium\nFeature-rich Selenium Grid with one command:\n\n```\ndocker run --rm -ti --name zalenium\n  -p 4444:4444 -p 5555:5555\n  -v $(which docker):/usr/bin/docker\n  -v /var/run/docker.sock:/var/run/docker.sock\n  -v /tmp/videos:/home/seluser/videos\n  --privileged\n  dosel/zalenium start\n```\n\n'),
 					_1: {
 						ctor: '::',
-						_0: _xarvh$elm_slides$Slides$md('\n# Credit to\n - [Amitai Brustein](https://github.com/amitaibu) for providing the initial idea and the mentoring\n - [Gizra](https://www.gizra.com/) for sponsoring the preparation to this workshop\n - [The authors of Zalenium](https://github.com/zalando/zalenium/graphs/contributors) to make it realistic to implement by the feature-rick Docker image\n\n'),
-						_1: {ctor: '[]'}
+						_0: _xarvh$elm_slides$Slides$md('\n# Zalenium excercise\n## [10min]\nTry to execute your previous test on your new grid, check the resulting video!\n'),
+						_1: {
+							ctor: '::',
+							_0: _xarvh$elm_slides$Slides$md('\n# Travis\n\n - Freedom on automated testing - for your Drupal project too (on GitHub)\n - YML file + shell scripting skills\n - Clone the sample and get some computing resources for [(free)](https://motherboard.vice.com/en_us/article/nzkxgm/bitcoin-mining-github-open-source-bots) :)\n  '),
+							_1: {
+								ctor: '::',
+								_0: _xarvh$elm_slides$Slides$md('\n# Travis excercise\n## [30min]\n\nGoal for newcomers:\n - Get the sample working on the clone of the repository\n\nGoal for veterans\n - Write (a trivial) WDIO tests for your own module and let Travis execute it with Zalenium\n'),
+								_1: {
+									ctor: '::',
+									_0: _xarvh$elm_slides$Slides$md('\n# Credit to\n - [Amitai Brustein](https://github.com/amitaibu) for providing the initial idea and the mentoring\n - [Gizra](https://www.gizra.com/) for sponsoring the preparation to this workshop\n - [The authors of Zalenium](https://github.com/zalando/zalenium/graphs/contributors) to make it realistic to implement by the feature-rick Docker image\n\n'),
+									_1: {ctor: '[]'}
+								}
+							}
+						}
 					}
 				}
 			}
