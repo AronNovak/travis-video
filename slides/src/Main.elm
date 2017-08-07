@@ -8,6 +8,14 @@ main =
         slidesDefaultOptions
         [ md
             """
+cloud ~ someone else's computer
+        """
+        , md
+            """
+CI for open source ~ someone else's computer for free
+        """
+        , md
+            """
 # Travis - your movie producer
 
 [https://github.com/AronNovak/travis-video](https://github.com/AronNovak/travis-video)
